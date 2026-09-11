@@ -1,0 +1,2359 @@
+{
+  "generatedAt": "2026-09-09T06:29:36.018Z",
+  "sheets": [
+    {
+      "id": "idle",
+      "category": "idle",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_46_50 p.m..png",
+      "width": 1536,
+      "height": 1024,
+      "background": "alpha",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": true
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 270,
+        "height": 511
+      }
+    },
+    {
+      "id": "jump",
+      "category": "jumping",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_50 p.m..png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 423,
+        "height": 505
+      }
+    },
+    {
+      "id": "sword",
+      "category": "energy-sword",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_52 p.m. (1).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 382,
+        "height": 583
+      }
+    },
+    {
+      "id": "combat",
+      "category": "combat",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_52 p.m. (2).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 433,
+        "height": 535
+      }
+    },
+    {
+      "id": "climb",
+      "category": "climbing",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_52 p.m. (4).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 434,
+        "height": 529
+      }
+    },
+    {
+      "id": "stealth",
+      "category": "crouching",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_53 p.m. (5).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 396,
+        "height": 462
+      }
+    },
+    {
+      "id": "code",
+      "category": "code-power",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_53 p.m. (6).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 398,
+        "height": 523
+      }
+    },
+    {
+      "id": "fall",
+      "category": "falling",
+      "source": "aaron-css-loader/ChatGPT Image 8 sept 2026, 11_49_53 p.m. (7).png",
+      "width": 1536,
+      "height": 1024,
+      "background": "checkerboard",
+      "grid": {
+        "columns": 5,
+        "rows": 2,
+        "cellWidth": 307,
+        "cellHeight": 512,
+        "detected": false
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 372,
+        "height": 451
+      }
+    },
+    {
+      "id": "run",
+      "category": "running",
+      "source": "public/aaron-run-sprite.png",
+      "width": 3970,
+      "height": 397,
+      "background": "alpha",
+      "grid": {
+        "columns": 10,
+        "rows": 1,
+        "cellWidth": 397,
+        "cellHeight": 397,
+        "detected": true
+      },
+      "poses": 10,
+      "canvas": {
+        "width": 376,
+        "height": 385
+      }
+    }
+  ],
+  "strips": [
+    {
+      "id": "run",
+      "category": "running",
+      "path": "/sprites/running/run-strip.webp",
+      "frames": 10,
+      "frameWidth": 376,
+      "frameHeight": 385,
+      "width": 3760,
+      "height": 385
+    }
+  ],
+  "poses": [
+    {
+      "name": "idle/neutral-left",
+      "pose": "neutral-left",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 0,
+      "path": "/sprites/idle/neutral-left.webp",
+      "smallPath": "/sprites/idle/neutral-left-sm.webp",
+      "png": "output/sprites/idle/neutral-left.png",
+      "width": 241,
+      "height": 476,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 14,
+        "y": 34
+      },
+      "sourceRect": {
+        "left": 47,
+        "top": 38,
+        "width": 241,
+        "height": 476
+      }
+    },
+    {
+      "name": "idle/glance-left",
+      "pose": "glance-left",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 1,
+      "path": "/sprites/idle/glance-left.webp",
+      "smallPath": "/sprites/idle/glance-left-sm.webp",
+      "png": "output/sprites/idle/glance-left.png",
+      "width": 240,
+      "height": 474,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 15,
+        "y": 36
+      },
+      "sourceRect": {
+        "left": 353,
+        "top": 40,
+        "width": 240,
+        "height": 474
+      }
+    },
+    {
+      "name": "idle/look-up-left",
+      "pose": "look-up-left",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 2,
+      "path": "/sprites/idle/look-up-left.webp",
+      "smallPath": "/sprites/idle/look-up-left-sm.webp",
+      "png": "output/sprites/idle/look-up-left.png",
+      "width": 240,
+      "height": 473,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 15,
+        "y": 37
+      },
+      "sourceRect": {
+        "left": 641,
+        "top": 41,
+        "width": 240,
+        "height": 473
+      }
+    },
+    {
+      "name": "idle/look-up",
+      "pose": "look-up",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 3,
+      "path": "/sprites/idle/look-up.webp",
+      "smallPath": "/sprites/idle/look-up-sm.webp",
+      "png": "output/sprites/idle/look-up.png",
+      "width": 238,
+      "height": 509,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 16,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 943,
+        "top": 5,
+        "width": 238,
+        "height": 509
+      }
+    },
+    {
+      "name": "idle/reach-right",
+      "pose": "reach-right",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 4,
+      "path": "/sprites/idle/reach-right.webp",
+      "smallPath": "/sprites/idle/reach-right-sm.webp",
+      "png": "output/sprites/idle/reach-right.png",
+      "width": 255,
+      "height": 474,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 7,
+        "y": 36
+      },
+      "sourceRect": {
+        "left": 1242,
+        "top": 40,
+        "width": 255,
+        "height": 474
+      }
+    },
+    {
+      "name": "idle/wave",
+      "pose": "wave",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 5,
+      "path": "/sprites/idle/wave.webp",
+      "smallPath": "/sprites/idle/wave-sm.webp",
+      "png": "output/sprites/idle/wave.png",
+      "width": 268,
+      "height": 468,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 1,
+        "y": 42
+      },
+      "sourceRect": {
+        "left": 46,
+        "top": 533,
+        "width": 268,
+        "height": 468
+      }
+    },
+    {
+      "name": "idle/point-up-right",
+      "pose": "point-up-right",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 6,
+      "path": "/sprites/idle/point-up-right.webp",
+      "smallPath": "/sprites/idle/point-up-right-sm.webp",
+      "png": "output/sprites/idle/point-up-right.png",
+      "width": 263,
+      "height": 467,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 3,
+        "y": 43
+      },
+      "sourceRect": {
+        "left": 355,
+        "top": 534,
+        "width": 263,
+        "height": 467
+      }
+    },
+    {
+      "name": "idle/surprised",
+      "pose": "surprised",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 7,
+      "path": "/sprites/idle/surprised.webp",
+      "smallPath": "/sprites/idle/surprised-sm.webp",
+      "png": "output/sprites/idle/surprised.png",
+      "width": 261,
+      "height": 469,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 4,
+        "y": 41
+      },
+      "sourceRect": {
+        "left": 643,
+        "top": 532,
+        "width": 261,
+        "height": 469
+      }
+    },
+    {
+      "name": "idle/laugh",
+      "pose": "laugh",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 8,
+      "path": "/sprites/idle/laugh.webp",
+      "smallPath": "/sprites/idle/laugh-sm.webp",
+      "png": "output/sprites/idle/laugh.png",
+      "width": 240,
+      "height": 466,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 15,
+        "y": 44
+      },
+      "sourceRect": {
+        "left": 943,
+        "top": 534,
+        "width": 240,
+        "height": 466
+      }
+    },
+    {
+      "name": "idle/neutral-right",
+      "pose": "neutral-right",
+      "category": "idle",
+      "sheet": "idle",
+      "index": 9,
+      "path": "/sprites/idle/neutral-right.webp",
+      "smallPath": "/sprites/idle/neutral-right-sm.webp",
+      "png": "output/sprites/idle/neutral-right.png",
+      "width": 241,
+      "height": 470,
+      "canvasWidth": 270,
+      "canvasHeight": 511,
+      "offset": {
+        "x": 14,
+        "y": 40
+      },
+      "sourceRect": {
+        "left": 1251,
+        "top": 531,
+        "width": 241,
+        "height": 470
+      }
+    },
+    {
+      "name": "jumping/crouch-ready",
+      "pose": "crouch-ready",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 0,
+      "path": "/sprites/jumping/crouch-ready.webp",
+      "smallPath": "/sprites/jumping/crouch-ready-sm.webp",
+      "png": "output/sprites/jumping/crouch-ready.png",
+      "width": 314,
+      "height": 294,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 54,
+        "y": 105
+      },
+      "sourceRect": {
+        "left": 21,
+        "top": 211,
+        "width": 314,
+        "height": 294
+      }
+    },
+    {
+      "name": "jumping/jump-fists",
+      "pose": "jump-fists",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 1,
+      "path": "/sprites/jumping/jump-fists.webp",
+      "smallPath": "/sprites/jumping/jump-fists-sm.webp",
+      "png": "output/sprites/jumping/jump-fists.png",
+      "width": 295,
+      "height": 443,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 64,
+        "y": 31
+      },
+      "sourceRect": {
+        "left": 309,
+        "top": 57,
+        "width": 295,
+        "height": 443
+      }
+    },
+    {
+      "name": "jumping/jump-arms-up",
+      "pose": "jump-arms-up",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 2,
+      "path": "/sprites/jumping/jump-arms-up.webp",
+      "smallPath": "/sprites/jumping/jump-arms-up-sm.webp",
+      "png": "output/sprites/jumping/jump-arms-up.png",
+      "width": 309,
+      "height": 495,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 57,
+        "y": 5
+      },
+      "sourceRect": {
+        "left": 607,
+        "top": 13,
+        "width": 309,
+        "height": 495
+      }
+    },
+    {
+      "name": "jumping/leap-forward",
+      "pose": "leap-forward",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 3,
+      "path": "/sprites/jumping/leap-forward.webp",
+      "smallPath": "/sprites/jumping/leap-forward-sm.webp",
+      "png": "output/sprites/jumping/leap-forward.png",
+      "width": 414,
+      "height": 378,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 4,
+        "y": 63
+      },
+      "sourceRect": {
+        "left": 904,
+        "top": 84,
+        "width": 414,
+        "height": 378
+      }
+    },
+    {
+      "name": "jumping/tuck",
+      "pose": "tuck",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 4,
+      "path": "/sprites/jumping/tuck.webp",
+      "smallPath": "/sprites/jumping/tuck-sm.webp",
+      "png": "output/sprites/jumping/tuck.png",
+      "width": 211,
+      "height": 326,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 106,
+        "y": 89
+      },
+      "sourceRect": {
+        "left": 1304,
+        "top": 122,
+        "width": 211,
+        "height": 326
+      }
+    },
+    {
+      "name": "jumping/jump-reach-up",
+      "pose": "jump-reach-up",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 5,
+      "path": "/sprites/jumping/jump-reach-up.webp",
+      "smallPath": "/sprites/jumping/jump-reach-up-sm.webp",
+      "png": "output/sprites/jumping/jump-reach-up.png",
+      "width": 289,
+      "height": 503,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 67,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 0,
+        "top": 514,
+        "width": 289,
+        "height": 503
+      }
+    },
+    {
+      "name": "jumping/leap-star",
+      "pose": "leap-star",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 6,
+      "path": "/sprites/jumping/leap-star.webp",
+      "smallPath": "/sprites/jumping/leap-star-sm.webp",
+      "png": "output/sprites/jumping/leap-star.png",
+      "width": 421,
+      "height": 348,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 1,
+        "y": 78
+      },
+      "sourceRect": {
+        "left": 261,
+        "top": 615,
+        "width": 421,
+        "height": 348
+      }
+    },
+    {
+      "name": "jumping/leap-run",
+      "pose": "leap-run",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 7,
+      "path": "/sprites/jumping/leap-run.webp",
+      "smallPath": "/sprites/jumping/leap-run-sm.webp",
+      "png": "output/sprites/jumping/leap-run.png",
+      "width": 302,
+      "height": 340,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 60,
+        "y": 82
+      },
+      "sourceRect": {
+        "left": 651,
+        "top": 603,
+        "width": 302,
+        "height": 340
+      }
+    },
+    {
+      "name": "jumping/land-low",
+      "pose": "land-low",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 8,
+      "path": "/sprites/jumping/land-low.webp",
+      "smallPath": "/sprites/jumping/land-low-sm.webp",
+      "png": "output/sprites/jumping/land-low.png",
+      "width": 283,
+      "height": 317,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 70,
+        "y": 94
+      },
+      "sourceRect": {
+        "left": 955,
+        "top": 684,
+        "width": 283,
+        "height": 317
+      }
+    },
+    {
+      "name": "jumping/land-crouch",
+      "pose": "land-crouch",
+      "category": "jumping",
+      "sheet": "jump",
+      "index": 9,
+      "path": "/sprites/jumping/land-crouch.webp",
+      "smallPath": "/sprites/jumping/land-crouch-sm.webp",
+      "png": "output/sprites/jumping/land-crouch.png",
+      "width": 283,
+      "height": 281,
+      "canvasWidth": 423,
+      "canvasHeight": 505,
+      "offset": {
+        "x": 70,
+        "y": 112
+      },
+      "sourceRect": {
+        "left": 1248,
+        "top": 735,
+        "width": 283,
+        "height": 281
+      }
+    },
+    {
+      "name": "energy-sword/guard",
+      "pose": "guard",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 0,
+      "path": "/sprites/energy-sword/guard.webp",
+      "smallPath": "/sprites/energy-sword/guard-sm.webp",
+      "png": "output/sprites/energy-sword/guard.png",
+      "width": 337,
+      "height": 514,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 22,
+        "y": 68
+      },
+      "sourceRect": {
+        "left": 0,
+        "top": 57,
+        "width": 337,
+        "height": 514
+      }
+    },
+    {
+      "name": "energy-sword/low-slash",
+      "pose": "low-slash",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 1,
+      "path": "/sprites/energy-sword/low-slash.webp",
+      "smallPath": "/sprites/energy-sword/low-slash-sm.webp",
+      "png": "output/sprites/energy-sword/low-slash.png",
+      "width": 326,
+      "height": 364,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 28,
+        "y": 218
+      },
+      "sourceRect": {
+        "left": 334,
+        "top": 200,
+        "width": 326,
+        "height": 364
+      }
+    },
+    {
+      "name": "energy-sword/raise",
+      "pose": "raise",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 2,
+      "path": "/sprites/energy-sword/raise.webp",
+      "smallPath": "/sprites/energy-sword/raise-sm.webp",
+      "png": "output/sprites/energy-sword/raise.png",
+      "width": 272,
+      "height": 581,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 55,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 642,
+        "top": 0,
+        "width": 272,
+        "height": 581
+      }
+    },
+    {
+      "name": "energy-sword/thrust",
+      "pose": "thrust",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 3,
+      "path": "/sprites/energy-sword/thrust.webp",
+      "smallPath": "/sprites/energy-sword/thrust-sm.webp",
+      "png": "output/sprites/energy-sword/thrust.png",
+      "width": 369,
+      "height": 422,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 6,
+        "y": 160
+      },
+      "sourceRect": {
+        "left": 850,
+        "top": 154,
+        "width": 369,
+        "height": 422
+      }
+    },
+    {
+      "name": "energy-sword/overhead",
+      "pose": "overhead",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 4,
+      "path": "/sprites/energy-sword/overhead.webp",
+      "smallPath": "/sprites/energy-sword/overhead-sm.webp",
+      "png": "output/sprites/energy-sword/overhead.png",
+      "width": 322,
+      "height": 485,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 30,
+        "y": 97
+      },
+      "sourceRect": {
+        "left": 1210,
+        "top": 82,
+        "width": 322,
+        "height": 485
+      }
+    },
+    {
+      "name": "energy-sword/swing-wide",
+      "pose": "swing-wide",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 5,
+      "path": "/sprites/energy-sword/swing-wide.webp",
+      "smallPath": "/sprites/energy-sword/swing-wide-sm.webp",
+      "png": "output/sprites/energy-sword/swing-wide.png",
+      "width": 368,
+      "height": 431,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 7,
+        "y": 151
+      },
+      "sourceRect": {
+        "left": 11,
+        "top": 568,
+        "width": 368,
+        "height": 431
+      }
+    },
+    {
+      "name": "energy-sword/ready",
+      "pose": "ready",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 6,
+      "path": "/sprites/energy-sword/ready.webp",
+      "smallPath": "/sprites/energy-sword/ready-sm.webp",
+      "png": "output/sprites/energy-sword/ready.png",
+      "width": 380,
+      "height": 413,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 1,
+        "y": 169
+      },
+      "sourceRect": {
+        "left": 279,
+        "top": 593,
+        "width": 380,
+        "height": 413
+      }
+    },
+    {
+      "name": "energy-sword/cross-guard",
+      "pose": "cross-guard",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 7,
+      "path": "/sprites/energy-sword/cross-guard.webp",
+      "smallPath": "/sprites/energy-sword/cross-guard-sm.webp",
+      "png": "output/sprites/energy-sword/cross-guard.png",
+      "width": 294,
+      "height": 467,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 44,
+        "y": 115
+      },
+      "sourceRect": {
+        "left": 668,
+        "top": 546,
+        "width": 294,
+        "height": 467
+      }
+    },
+    {
+      "name": "energy-sword/slash-right",
+      "pose": "slash-right",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 8,
+      "path": "/sprites/energy-sword/slash-right.webp",
+      "smallPath": "/sprites/energy-sword/slash-right-sm.webp",
+      "png": "output/sprites/energy-sword/slash-right.png",
+      "width": 283,
+      "height": 451,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 49,
+        "y": 131
+      },
+      "sourceRect": {
+        "left": 947,
+        "top": 557,
+        "width": 283,
+        "height": 451
+      }
+    },
+    {
+      "name": "energy-sword/crouch-strike",
+      "pose": "crouch-strike",
+      "category": "energy-sword",
+      "sheet": "sword",
+      "index": 9,
+      "path": "/sprites/energy-sword/crouch-strike.webp",
+      "smallPath": "/sprites/energy-sword/crouch-strike-sm.webp",
+      "png": "output/sprites/energy-sword/crouch-strike.png",
+      "width": 280,
+      "height": 332,
+      "canvasWidth": 382,
+      "canvasHeight": 583,
+      "offset": {
+        "x": 51,
+        "y": 250
+      },
+      "sourceRect": {
+        "left": 1226,
+        "top": 671,
+        "width": 280,
+        "height": 332
+      }
+    },
+    {
+      "name": "combat/guard",
+      "pose": "guard",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 0,
+      "path": "/sprites/combat/guard.webp",
+      "smallPath": "/sprites/combat/guard-sm.webp",
+      "png": "output/sprites/combat/guard.png",
+      "width": 309,
+      "height": 519,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 62,
+        "y": 15
+      },
+      "sourceRect": {
+        "left": 11,
+        "top": 11,
+        "width": 309,
+        "height": 519
+      }
+    },
+    {
+      "name": "combat/guard-close",
+      "pose": "guard-close",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 1,
+      "path": "/sprites/combat/guard-close.webp",
+      "smallPath": "/sprites/combat/guard-close-sm.webp",
+      "png": "output/sprites/combat/guard-close.png",
+      "width": 271,
+      "height": 524,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 81,
+        "y": 10
+      },
+      "sourceRect": {
+        "left": 335,
+        "top": 11,
+        "width": 271,
+        "height": 524
+      }
+    },
+    {
+      "name": "combat/punch-left",
+      "pose": "punch-left",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 2,
+      "path": "/sprites/combat/punch-left.webp",
+      "smallPath": "/sprites/combat/punch-left-sm.webp",
+      "png": "output/sprites/combat/punch-left.png",
+      "width": 287,
+      "height": 533,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 73,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 611,
+        "top": 8,
+        "width": 287,
+        "height": 533
+      }
+    },
+    {
+      "name": "combat/punch-right",
+      "pose": "punch-right",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 3,
+      "path": "/sprites/combat/punch-right.webp",
+      "smallPath": "/sprites/combat/punch-right-sm.webp",
+      "png": "output/sprites/combat/punch-right.png",
+      "width": 382,
+      "height": 514,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 25,
+        "y": 20
+      },
+      "sourceRect": {
+        "left": 910,
+        "top": 15,
+        "width": 382,
+        "height": 514
+      }
+    },
+    {
+      "name": "combat/open-palm",
+      "pose": "open-palm",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 4,
+      "path": "/sprites/combat/open-palm.webp",
+      "smallPath": "/sprites/combat/open-palm-sm.webp",
+      "png": "output/sprites/combat/open-palm.png",
+      "width": 272,
+      "height": 528,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 80,
+        "y": 6
+      },
+      "sourceRect": {
+        "left": 1256,
+        "top": 10,
+        "width": 272,
+        "height": 528
+      }
+    },
+    {
+      "name": "combat/stop-hand",
+      "pose": "stop-hand",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 5,
+      "path": "/sprites/combat/stop-hand.webp",
+      "smallPath": "/sprites/combat/stop-hand-sm.webp",
+      "png": "output/sprites/combat/stop-hand.png",
+      "width": 338,
+      "height": 501,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 47,
+        "y": 33
+      },
+      "sourceRect": {
+        "left": 8,
+        "top": 515,
+        "width": 338,
+        "height": 501
+      }
+    },
+    {
+      "name": "combat/high-kick",
+      "pose": "high-kick",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 6,
+      "path": "/sprites/combat/high-kick.webp",
+      "smallPath": "/sprites/combat/high-kick-sm.webp",
+      "png": "output/sprites/combat/high-kick.png",
+      "width": 267,
+      "height": 505,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 83,
+        "y": 29
+      },
+      "sourceRect": {
+        "left": 385,
+        "top": 504,
+        "width": 267,
+        "height": 505
+      }
+    },
+    {
+      "name": "combat/sweep-low",
+      "pose": "sweep-low",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 7,
+      "path": "/sprites/combat/sweep-low.webp",
+      "smallPath": "/sprites/combat/sweep-low-sm.webp",
+      "png": "output/sprites/combat/sweep-low.png",
+      "width": 362,
+      "height": 346,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 35,
+        "y": 188
+      },
+      "sourceRect": {
+        "left": 612,
+        "top": 674,
+        "width": 362,
+        "height": 346
+      }
+    },
+    {
+      "name": "combat/side-kick",
+      "pose": "side-kick",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 8,
+      "path": "/sprites/combat/side-kick.webp",
+      "smallPath": "/sprites/combat/side-kick-sm.webp",
+      "png": "output/sprites/combat/side-kick.png",
+      "width": 431,
+      "height": 494,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 1,
+        "y": 40
+      },
+      "sourceRect": {
+        "left": 863,
+        "top": 512,
+        "width": 431,
+        "height": 494
+      }
+    },
+    {
+      "name": "combat/finger-guns",
+      "pose": "finger-guns",
+      "category": "combat",
+      "sheet": "combat",
+      "index": 9,
+      "path": "/sprites/combat/finger-guns.webp",
+      "smallPath": "/sprites/combat/finger-guns-sm.webp",
+      "png": "output/sprites/combat/finger-guns.png",
+      "width": 364,
+      "height": 496,
+      "canvasWidth": 433,
+      "canvasHeight": 535,
+      "offset": {
+        "x": 34,
+        "y": 38
+      },
+      "sourceRect": {
+        "left": 1172,
+        "top": 520,
+        "width": 364,
+        "height": 496
+      }
+    },
+    {
+      "name": "climbing/wall-climb",
+      "pose": "wall-climb",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 0,
+      "path": "/sprites/climbing/wall-climb.webp",
+      "smallPath": "/sprites/climbing/wall-climb-sm.webp",
+      "png": "output/sprites/climbing/wall-climb.png",
+      "width": 258,
+      "height": 505,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 88,
+        "y": 12
+      },
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 258,
+        "height": 505
+      }
+    },
+    {
+      "name": "climbing/ledge-pullup",
+      "pose": "ledge-pullup",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 1,
+      "path": "/sprites/climbing/ledge-pullup.webp",
+      "smallPath": "/sprites/climbing/ledge-pullup-sm.webp",
+      "png": "output/sprites/climbing/ledge-pullup.png",
+      "width": 287,
+      "height": 527,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 73,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 284,
+        "top": 0,
+        "width": 287,
+        "height": 527
+      }
+    },
+    {
+      "name": "climbing/wall-lean",
+      "pose": "wall-lean",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 2,
+      "path": "/sprites/climbing/wall-lean.webp",
+      "smallPath": "/sprites/climbing/wall-lean-sm.webp",
+      "png": "output/sprites/climbing/wall-lean.png",
+      "width": 432,
+      "height": 470,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 1,
+        "y": 29
+      },
+      "sourceRect": {
+        "left": 573,
+        "top": 35,
+        "width": 432,
+        "height": 470
+      }
+    },
+    {
+      "name": "climbing/vault-over",
+      "pose": "vault-over",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 3,
+      "path": "/sprites/climbing/vault-over.webp",
+      "smallPath": "/sprites/climbing/vault-over-sm.webp",
+      "png": "output/sprites/climbing/vault-over.png",
+      "width": 317,
+      "height": 366,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 58,
+        "y": 81
+      },
+      "sourceRect": {
+        "left": 927,
+        "top": 116,
+        "width": 317,
+        "height": 366
+      }
+    },
+    {
+      "name": "climbing/perch",
+      "pose": "perch",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 4,
+      "path": "/sprites/climbing/perch.webp",
+      "smallPath": "/sprites/climbing/perch-sm.webp",
+      "png": "output/sprites/climbing/perch.png",
+      "width": 280,
+      "height": 459,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 77,
+        "y": 35
+      },
+      "sourceRect": {
+        "left": 1256,
+        "top": 15,
+        "width": 280,
+        "height": 459
+      }
+    },
+    {
+      "name": "climbing/ledge-reach",
+      "pose": "ledge-reach",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 5,
+      "path": "/sprites/climbing/ledge-reach.webp",
+      "smallPath": "/sprites/climbing/ledge-reach-sm.webp",
+      "png": "output/sprites/climbing/ledge-reach.png",
+      "width": 365,
+      "height": 487,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 34,
+        "y": 21
+      },
+      "sourceRect": {
+        "left": 6,
+        "top": 508,
+        "width": 365,
+        "height": 487
+      }
+    },
+    {
+      "name": "climbing/handstand-vault",
+      "pose": "handstand-vault",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 6,
+      "path": "/sprites/climbing/handstand-vault.webp",
+      "smallPath": "/sprites/climbing/handstand-vault-sm.webp",
+      "png": "output/sprites/climbing/handstand-vault.png",
+      "width": 285,
+      "height": 484,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 74,
+        "y": 22
+      },
+      "sourceRect": {
+        "left": 326,
+        "top": 517,
+        "width": 285,
+        "height": 484
+      }
+    },
+    {
+      "name": "climbing/sit-on-block",
+      "pose": "sit-on-block",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 7,
+      "path": "/sprites/climbing/sit-on-block.webp",
+      "smallPath": "/sprites/climbing/sit-on-block-sm.webp",
+      "png": "output/sprites/climbing/sit-on-block.png",
+      "width": 323,
+      "height": 439,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 55,
+        "y": 45
+      },
+      "sourceRect": {
+        "left": 611,
+        "top": 549,
+        "width": 323,
+        "height": 439
+      }
+    },
+    {
+      "name": "climbing/hang-bar",
+      "pose": "hang-bar",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 8,
+      "path": "/sprites/climbing/hang-bar.webp",
+      "smallPath": "/sprites/climbing/hang-bar-sm.webp",
+      "png": "output/sprites/climbing/hang-bar.png",
+      "width": 286,
+      "height": 502,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 74,
+        "y": 13
+      },
+      "sourceRect": {
+        "left": 935,
+        "top": 493,
+        "width": 286,
+        "height": 502
+      }
+    },
+    {
+      "name": "climbing/hang-swing",
+      "pose": "hang-swing",
+      "category": "climbing",
+      "sheet": "climb",
+      "index": 9,
+      "path": "/sprites/climbing/hang-swing.webp",
+      "smallPath": "/sprites/climbing/hang-swing-sm.webp",
+      "png": "output/sprites/climbing/hang-swing.png",
+      "width": 303,
+      "height": 490,
+      "canvasWidth": 434,
+      "canvasHeight": 529,
+      "offset": {
+        "x": 65,
+        "y": 19
+      },
+      "sourceRect": {
+        "left": 1223,
+        "top": 496,
+        "width": 303,
+        "height": 490
+      }
+    },
+    {
+      "name": "crouching/low-hand",
+      "pose": "low-hand",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 0,
+      "path": "/sprites/crouching/low-hand.webp",
+      "smallPath": "/sprites/crouching/low-hand-sm.webp",
+      "png": "output/sprites/crouching/low-hand.png",
+      "width": 303,
+      "height": 389,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 46,
+        "y": 72
+      },
+      "sourceRect": {
+        "left": 20,
+        "top": 121,
+        "width": 303,
+        "height": 389
+      }
+    },
+    {
+      "name": "crouching/hands-up",
+      "pose": "hands-up",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 1,
+      "path": "/sprites/crouching/hands-up.webp",
+      "smallPath": "/sprites/crouching/hands-up-sm.webp",
+      "png": "output/sprites/crouching/hands-up.png",
+      "width": 329,
+      "height": 433,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 33,
+        "y": 28
+      },
+      "sourceRect": {
+        "left": 321,
+        "top": 76,
+        "width": 329,
+        "height": 433
+      }
+    },
+    {
+      "name": "crouching/sneak",
+      "pose": "sneak",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 2,
+      "path": "/sprites/crouching/sneak.webp",
+      "smallPath": "/sprites/crouching/sneak-sm.webp",
+      "png": "output/sprites/crouching/sneak.png",
+      "width": 291,
+      "height": 460,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 52,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 647,
+        "top": 49,
+        "width": 291,
+        "height": 460
+      }
+    },
+    {
+      "name": "crouching/hand-down",
+      "pose": "hand-down",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 3,
+      "path": "/sprites/crouching/hand-down.webp",
+      "smallPath": "/sprites/crouching/hand-down-sm.webp",
+      "png": "output/sprites/crouching/hand-down.png",
+      "width": 351,
+      "height": 363,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 22,
+        "y": 98
+      },
+      "sourceRect": {
+        "left": 902,
+        "top": 157,
+        "width": 351,
+        "height": 363
+      }
+    },
+    {
+      "name": "crouching/rest",
+      "pose": "rest",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 4,
+      "path": "/sprites/crouching/rest.webp",
+      "smallPath": "/sprites/crouching/rest-sm.webp",
+      "png": "output/sprites/crouching/rest.png",
+      "width": 273,
+      "height": 404,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 61,
+        "y": 57
+      },
+      "sourceRect": {
+        "left": 1254,
+        "top": 89,
+        "width": 273,
+        "height": 404
+      }
+    },
+    {
+      "name": "crouching/crawl",
+      "pose": "crawl",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 5,
+      "path": "/sprites/crouching/crawl.webp",
+      "smallPath": "/sprites/crouching/crawl-sm.webp",
+      "png": "output/sprites/crouching/crawl.png",
+      "width": 281,
+      "height": 364,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 57,
+        "y": 97
+      },
+      "sourceRect": {
+        "left": 16,
+        "top": 599,
+        "width": 281,
+        "height": 364
+      }
+    },
+    {
+      "name": "crouching/side-look",
+      "pose": "side-look",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 6,
+      "path": "/sprites/crouching/side-look.webp",
+      "smallPath": "/sprites/crouching/side-look-sm.webp",
+      "png": "output/sprites/crouching/side-look.png",
+      "width": 291,
+      "height": 359,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 52,
+        "y": 102
+      },
+      "sourceRect": {
+        "left": 299,
+        "top": 605,
+        "width": 291,
+        "height": 359
+      }
+    },
+    {
+      "name": "crouching/alert",
+      "pose": "alert",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 7,
+      "path": "/sprites/crouching/alert.webp",
+      "smallPath": "/sprites/crouching/alert-sm.webp",
+      "png": "output/sprites/crouching/alert.png",
+      "width": 252,
+      "height": 424,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 72,
+        "y": 37
+      },
+      "sourceRect": {
+        "left": 602,
+        "top": 549,
+        "width": 252,
+        "height": 424
+      }
+    },
+    {
+      "name": "crouching/both-hands",
+      "pose": "both-hands",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 8,
+      "path": "/sprites/crouching/both-hands.webp",
+      "smallPath": "/sprites/crouching/both-hands-sm.webp",
+      "png": "output/sprites/crouching/both-hands.png",
+      "width": 394,
+      "height": 399,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 1,
+        "y": 62
+      },
+      "sourceRect": {
+        "left": 865,
+        "top": 566,
+        "width": 394,
+        "height": 399
+      }
+    },
+    {
+      "name": "crouching/reach",
+      "pose": "reach",
+      "category": "crouching",
+      "sheet": "stealth",
+      "index": 9,
+      "path": "/sprites/crouching/reach.webp",
+      "smallPath": "/sprites/crouching/reach-sm.webp",
+      "png": "output/sprites/crouching/reach.png",
+      "width": 294,
+      "height": 377,
+      "canvasWidth": 396,
+      "canvasHeight": 462,
+      "offset": {
+        "x": 51,
+        "y": 84
+      },
+      "sourceRect": {
+        "left": 1232,
+        "top": 586,
+        "width": 294,
+        "height": 377
+      }
+    },
+    {
+      "name": "code-power/orb",
+      "pose": "orb",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 0,
+      "path": "/sprites/code-power/orb.webp",
+      "smallPath": "/sprites/code-power/orb-sm.webp",
+      "png": "output/sprites/code-power/orb.png",
+      "width": 334,
+      "height": 480,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 32,
+        "y": 42
+      },
+      "sourceRect": {
+        "left": 9,
+        "top": 55,
+        "width": 334,
+        "height": 480
+      }
+    },
+    {
+      "name": "code-power/small-orb",
+      "pose": "small-orb",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 1,
+      "path": "/sprites/code-power/small-orb.webp",
+      "smallPath": "/sprites/code-power/small-orb-sm.webp",
+      "png": "output/sprites/code-power/small-orb.png",
+      "width": 270,
+      "height": 488,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 64,
+        "y": 34
+      },
+      "sourceRect": {
+        "left": 310,
+        "top": 47,
+        "width": 270,
+        "height": 488
+      }
+    },
+    {
+      "name": "code-power/tap",
+      "pose": "tap",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 2,
+      "path": "/sprites/code-power/tap.webp",
+      "smallPath": "/sprites/code-power/tap-sm.webp",
+      "png": "output/sprites/code-power/tap.png",
+      "width": 346,
+      "height": 521,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 26,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 581,
+        "top": 20,
+        "width": 346,
+        "height": 521
+      }
+    },
+    {
+      "name": "code-power/beam",
+      "pose": "beam",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 3,
+      "path": "/sprites/code-power/beam.webp",
+      "smallPath": "/sprites/code-power/beam-sm.webp",
+      "png": "output/sprites/code-power/beam.png",
+      "width": 323,
+      "height": 454,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 37,
+        "y": 68
+      },
+      "sourceRect": {
+        "left": 869,
+        "top": 83,
+        "width": 323,
+        "height": 454
+      }
+    },
+    {
+      "name": "code-power/burst",
+      "pose": "burst",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 4,
+      "path": "/sprites/code-power/burst.webp",
+      "smallPath": "/sprites/code-power/burst-sm.webp",
+      "png": "output/sprites/code-power/burst.png",
+      "width": 396,
+      "height": 516,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 1,
+        "y": 6
+      },
+      "sourceRect": {
+        "left": 1138,
+        "top": 17,
+        "width": 396,
+        "height": 516
+      }
+    },
+    {
+      "name": "code-power/swirl",
+      "pose": "swirl",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 5,
+      "path": "/sprites/code-power/swirl.webp",
+      "smallPath": "/sprites/code-power/swirl-sm.webp",
+      "png": "output/sprites/code-power/swirl.png",
+      "width": 341,
+      "height": 435,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 28,
+        "y": 87
+      },
+      "sourceRect": {
+        "left": 8,
+        "top": 566,
+        "width": 341,
+        "height": 435
+      }
+    },
+    {
+      "name": "code-power/lift-ring",
+      "pose": "lift-ring",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 6,
+      "path": "/sprites/code-power/lift-ring.webp",
+      "smallPath": "/sprites/code-power/lift-ring-sm.webp",
+      "png": "output/sprites/code-power/lift-ring.png",
+      "width": 256,
+      "height": 493,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 71,
+        "y": 29
+      },
+      "sourceRect": {
+        "left": 327,
+        "top": 519,
+        "width": 256,
+        "height": 493
+      }
+    },
+    {
+      "name": "code-power/crouch-wave",
+      "pose": "crouch-wave",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 7,
+      "path": "/sprites/code-power/crouch-wave.webp",
+      "smallPath": "/sprites/code-power/crouch-wave-sm.webp",
+      "png": "output/sprites/code-power/crouch-wave.png",
+      "width": 369,
+      "height": 368,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 14,
+        "y": 154
+      },
+      "sourceRect": {
+        "left": 554,
+        "top": 606,
+        "width": 369,
+        "height": 368
+      }
+    },
+    {
+      "name": "code-power/shields",
+      "pose": "shields",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 8,
+      "path": "/sprites/code-power/shields.webp",
+      "smallPath": "/sprites/code-power/shields-sm.webp",
+      "png": "output/sprites/code-power/shields.png",
+      "width": 325,
+      "height": 428,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 36,
+        "y": 94
+      },
+      "sourceRect": {
+        "left": 884,
+        "top": 571,
+        "width": 325,
+        "height": 428
+      }
+    },
+    {
+      "name": "code-power/meditate",
+      "pose": "meditate",
+      "category": "code-power",
+      "sheet": "code",
+      "index": 9,
+      "path": "/sprites/code-power/meditate.webp",
+      "smallPath": "/sprites/code-power/meditate-sm.webp",
+      "png": "output/sprites/code-power/meditate.png",
+      "width": 333,
+      "height": 382,
+      "canvasWidth": 398,
+      "canvasHeight": 523,
+      "offset": {
+        "x": 32,
+        "y": 140
+      },
+      "sourceRect": {
+        "left": 1189,
+        "top": 568,
+        "width": 333,
+        "height": 382
+      }
+    },
+    {
+      "name": "falling/fall-back",
+      "pose": "fall-back",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 0,
+      "path": "/sprites/falling/fall-back.webp",
+      "smallPath": "/sprites/falling/fall-back-sm.webp",
+      "png": "output/sprites/falling/fall-back.png",
+      "width": 370,
+      "height": 441,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 1,
+        "y": 5
+      },
+      "sourceRect": {
+        "left": 7,
+        "top": 95,
+        "width": 370,
+        "height": 441
+      }
+    },
+    {
+      "name": "falling/tumble",
+      "pose": "tumble",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 1,
+      "path": "/sprites/falling/tumble.webp",
+      "smallPath": "/sprites/falling/tumble-sm.webp",
+      "png": "output/sprites/falling/tumble.png",
+      "width": 314,
+      "height": 328,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 29,
+        "y": 61
+      },
+      "sourceRect": {
+        "left": 340,
+        "top": 167,
+        "width": 314,
+        "height": 328
+      }
+    },
+    {
+      "name": "falling/reach-down",
+      "pose": "reach-down",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 2,
+      "path": "/sprites/falling/reach-down.webp",
+      "smallPath": "/sprites/falling/reach-down-sm.webp",
+      "png": "output/sprites/falling/reach-down.png",
+      "width": 296,
+      "height": 449,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 38,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 663,
+        "top": 90,
+        "width": 296,
+        "height": 449
+      }
+    },
+    {
+      "name": "falling/arms-up",
+      "pose": "arms-up",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 3,
+      "path": "/sprites/falling/arms-up.webp",
+      "smallPath": "/sprites/falling/arms-up-sm.webp",
+      "png": "output/sprites/falling/arms-up.png",
+      "width": 328,
+      "height": 393,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 22,
+        "y": 29
+      },
+      "sourceRect": {
+        "left": 934,
+        "top": 65,
+        "width": 328,
+        "height": 393
+      }
+    },
+    {
+      "name": "falling/tuck",
+      "pose": "tuck",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 4,
+      "path": "/sprites/falling/tuck.webp",
+      "smallPath": "/sprites/falling/tuck-sm.webp",
+      "png": "output/sprites/falling/tuck.png",
+      "width": 284,
+      "height": 280,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 44,
+        "y": 85
+      },
+      "sourceRect": {
+        "left": 1246,
+        "top": 143,
+        "width": 284,
+        "height": 280
+      }
+    },
+    {
+      "name": "falling/recover-sit",
+      "pose": "recover-sit",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 5,
+      "path": "/sprites/falling/recover-sit.webp",
+      "smallPath": "/sprites/falling/recover-sit-sm.webp",
+      "png": "output/sprites/falling/recover-sit.png",
+      "width": 353,
+      "height": 333,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 9,
+        "y": 59
+      },
+      "sourceRect": {
+        "left": 11,
+        "top": 617,
+        "width": 353,
+        "height": 333
+      }
+    },
+    {
+      "name": "falling/recover-roll",
+      "pose": "recover-roll",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 6,
+      "path": "/sprites/falling/recover-roll.webp",
+      "smallPath": "/sprites/falling/recover-roll-sm.webp",
+      "png": "output/sprites/falling/recover-roll.png",
+      "width": 305,
+      "height": 334,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 33,
+        "y": 58
+      },
+      "sourceRect": {
+        "left": 333,
+        "top": 593,
+        "width": 305,
+        "height": 334
+      }
+    },
+    {
+      "name": "falling/recover-kneel",
+      "pose": "recover-kneel",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 7,
+      "path": "/sprites/falling/recover-kneel.webp",
+      "smallPath": "/sprites/falling/recover-kneel-sm.webp",
+      "png": "output/sprites/falling/recover-kneel.png",
+      "width": 252,
+      "height": 320,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 60,
+        "y": 65
+      },
+      "sourceRect": {
+        "left": 669,
+        "top": 629,
+        "width": 252,
+        "height": 320
+      }
+    },
+    {
+      "name": "falling/recover-stumble",
+      "pose": "recover-stumble",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 8,
+      "path": "/sprites/falling/recover-stumble.webp",
+      "smallPath": "/sprites/falling/recover-stumble-sm.webp",
+      "png": "output/sprites/falling/recover-stumble.png",
+      "width": 311,
+      "height": 410,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 30,
+        "y": 20
+      },
+      "sourceRect": {
+        "left": 951,
+        "top": 556,
+        "width": 311,
+        "height": 410
+      }
+    },
+    {
+      "name": "falling/recover-smile",
+      "pose": "recover-smile",
+      "category": "falling",
+      "sheet": "fall",
+      "index": 9,
+      "path": "/sprites/falling/recover-smile.webp",
+      "smallPath": "/sprites/falling/recover-smile-sm.webp",
+      "png": "output/sprites/falling/recover-smile.png",
+      "width": 293,
+      "height": 328,
+      "canvasWidth": 372,
+      "canvasHeight": 451,
+      "offset": {
+        "x": 39,
+        "y": 61
+      },
+      "sourceRect": {
+        "left": 1234,
+        "top": 626,
+        "width": 293,
+        "height": 328
+      }
+    },
+    {
+      "name": "running/frame-01",
+      "pose": "frame-01",
+      "category": "running",
+      "sheet": "run",
+      "index": 0,
+      "path": "/sprites/running/frame-01.webp",
+      "smallPath": "/sprites/running/frame-01-sm.webp",
+      "png": "output/sprites/running/frame-01.png",
+      "width": 305,
+      "height": 383,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 35,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 39,
+        "top": 10,
+        "width": 305,
+        "height": 383
+      }
+    },
+    {
+      "name": "running/frame-02",
+      "pose": "frame-02",
+      "category": "running",
+      "sheet": "run",
+      "index": 1,
+      "path": "/sprites/running/frame-02.webp",
+      "smallPath": "/sprites/running/frame-02-sm.webp",
+      "png": "output/sprites/running/frame-02.png",
+      "width": 253,
+      "height": 379,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 61,
+        "y": 5
+      },
+      "sourceRect": {
+        "left": 470,
+        "top": 14,
+        "width": 253,
+        "height": 379
+      }
+    },
+    {
+      "name": "running/frame-03",
+      "pose": "frame-03",
+      "category": "running",
+      "sheet": "run",
+      "index": 2,
+      "path": "/sprites/running/frame-03.webp",
+      "smallPath": "/sprites/running/frame-03-sm.webp",
+      "png": "output/sprites/running/frame-03.png",
+      "width": 200,
+      "height": 383,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 88,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 889,
+        "top": 11,
+        "width": 200,
+        "height": 383
+      }
+    },
+    {
+      "name": "running/frame-04",
+      "pose": "frame-04",
+      "category": "running",
+      "sheet": "run",
+      "index": 3,
+      "path": "/sprites/running/frame-04.webp",
+      "smallPath": "/sprites/running/frame-04-sm.webp",
+      "png": "output/sprites/running/frame-04.png",
+      "width": 279,
+      "height": 383,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 48,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 1222,
+        "top": 10,
+        "width": 279,
+        "height": 383
+      }
+    },
+    {
+      "name": "running/frame-05",
+      "pose": "frame-05",
+      "category": "running",
+      "sheet": "run",
+      "index": 4,
+      "path": "/sprites/running/frame-05.webp",
+      "smallPath": "/sprites/running/frame-05-sm.webp",
+      "png": "output/sprites/running/frame-05.png",
+      "width": 374,
+      "height": 363,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 1,
+        "y": 21
+      },
+      "sourceRect": {
+        "left": 1581,
+        "top": 10,
+        "width": 374,
+        "height": 363
+      }
+    },
+    {
+      "name": "running/frame-06",
+      "pose": "frame-06",
+      "category": "running",
+      "sheet": "run",
+      "index": 5,
+      "path": "/sprites/running/frame-06.webp",
+      "smallPath": "/sprites/running/frame-06-sm.webp",
+      "png": "output/sprites/running/frame-06.png",
+      "width": 334,
+      "height": 379,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 21,
+        "y": 5
+      },
+      "sourceRect": {
+        "left": 2024,
+        "top": 7,
+        "width": 334,
+        "height": 379
+      }
+    },
+    {
+      "name": "running/frame-07",
+      "pose": "frame-07",
+      "category": "running",
+      "sheet": "run",
+      "index": 6,
+      "path": "/sprites/running/frame-07.webp",
+      "smallPath": "/sprites/running/frame-07-sm.webp",
+      "png": "output/sprites/running/frame-07.png",
+      "width": 216,
+      "height": 377,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 80,
+        "y": 7
+      },
+      "sourceRect": {
+        "left": 2479,
+        "top": 11,
+        "width": 216,
+        "height": 377
+      }
+    },
+    {
+      "name": "running/frame-08",
+      "pose": "frame-08",
+      "category": "running",
+      "sheet": "run",
+      "index": 7,
+      "path": "/sprites/running/frame-08.webp",
+      "smallPath": "/sprites/running/frame-08-sm.webp",
+      "png": "output/sprites/running/frame-08.png",
+      "width": 213,
+      "height": 383,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 81,
+        "y": 1
+      },
+      "sourceRect": {
+        "left": 2866,
+        "top": 6,
+        "width": 213,
+        "height": 383
+      }
+    },
+    {
+      "name": "running/frame-09",
+      "pose": "frame-09",
+      "category": "running",
+      "sheet": "run",
+      "index": 8,
+      "path": "/sprites/running/frame-09.webp",
+      "smallPath": "/sprites/running/frame-09-sm.webp",
+      "png": "output/sprites/running/frame-09.png",
+      "width": 309,
+      "height": 382,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 33,
+        "y": 2
+      },
+      "sourceRect": {
+        "left": 3180,
+        "top": 7,
+        "width": 309,
+        "height": 382
+      }
+    },
+    {
+      "name": "running/frame-10",
+      "pose": "frame-10",
+      "category": "running",
+      "sheet": "run",
+      "index": 9,
+      "path": "/sprites/running/frame-10.webp",
+      "smallPath": "/sprites/running/frame-10-sm.webp",
+      "png": "output/sprites/running/frame-10.png",
+      "width": 370,
+      "height": 351,
+      "canvasWidth": 376,
+      "canvasHeight": 385,
+      "offset": {
+        "x": 3,
+        "y": 33
+      },
+      "sourceRect": {
+        "left": 3575,
+        "top": 3,
+        "width": 370,
+        "height": 351
+      }
+    }
+  ]
+}

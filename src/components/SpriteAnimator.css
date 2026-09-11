@@ -1,0 +1,3 @@
+.sprite-strip { background-repeat: no-repeat; background-position: 0 0; animation-name: sprite-run; animation-iteration-count: infinite; image-rendering: auto; will-change: background-position; }
+@keyframes sprite-run { to { background-position: calc(var(--frames) * var(--frame-w) * -1) 0; } }
+@media (prefers-reduced-motion: reduce) { .sprite-strip { animation: none !important; } }

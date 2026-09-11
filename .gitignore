@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+.originkit/
+
+.vercel/
+.vercel
+output/
+*.zip
+_DSC9877.jpg
+index.old.html
+index.pre-redesign.html
+site-captures/

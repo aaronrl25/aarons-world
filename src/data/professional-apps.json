@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mywalmart",
+    "name": "MyWalmart",
+    "url": "https://play.google.com/store/apps/details?id=com.walmart.squiggly",
+    "company": "Walmart",
+    "store": "Google Play",
+    "image": "/apps/mywalmart.webp"
+  },
+  {
+    "id": "spark-driver",
+    "name": "Spark Driver",
+    "url": "https://play.google.com/store/apps/details?id=com.walmart.sparkdriver",
+    "company": "Walmart",
+    "store": "Google Play",
+    "image": "/apps/spark-driver.webp"
+  },
+  {
+    "id": "walmart-seller",
+    "name": "Walmart Seller",
+    "url": "https://play.google.com/store/apps/details?id=com.walmart.android.seller",
+    "company": "Walmart",
+    "store": "Google Play",
+    "image": "/apps/walmart-seller.webp"
+  },
+  {
+    "id": "walmart-business",
+    "name": "Walmart Business",
+    "url": "https://play.google.com/store/apps/details?id=com.walmart.android.b2b",
+    "company": "Walmart",
+    "store": "Google Play",
+    "image": "/apps/walmart-business.webp"
+  },
+  {
+    "id": "aep-ohio",
+    "name": "AEP Ohio",
+    "url": "https://apps.apple.com/us/app/aep-ohio/id1262399061",
+    "company": "American Electric Power",
+    "store": "App Store",
+    "image": "/apps/aep-ohio.webp"
+  },
+  {
+    "id": "bcbsil",
+    "name": "BCBSIL",
+    "url": "https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en",
+    "company": "HCSC",
+    "store": "Google Play",
+    "image": "/apps/bcbsil.webp"
+  },
+  {
+    "id": "lidia",
+    "name": "Lidia Central",
+    "url": "https://play.google.com/store/apps/details?id=dev.propia.lidia",
+    "company": "Propia AI",
+    "store": "Google Play",
+    "image": "/apps/lidia.webp"
+  }
+]

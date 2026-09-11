@@ -1,0 +1,226 @@
+{
+  "experience": [
+    {
+      "date": "Jan 2026 – Apr 2026",
+      "role": "Staff Software Engineer",
+      "company": "Walmart (Contract) · Seller Center / Marketplace Platform",
+      "bullets": [
+        "Spearheaded React Native and React front-end development for Walmart’s Seller Center marketplace platform, supporting billions in annual GMV; set component architecture standards and code review protocols for a cross-functional squad of 6+ engineers.",
+        "Established shared component libraries and mobile performance profiling protocols adopted across 3 product teams, reducing redundant implementation work and accelerating sprint delivery."
+      ],
+      "tags": [
+        "React Native",
+        "React",
+        "Component architecture",
+        "Technical leadership"
+      ]
+    },
+    {
+      "date": "Mar 2025 – Jan 2026",
+      "role": "Senior Software Engineer",
+      "company": "IBM / American Electric Power (Contract) · Enterprise Field Operations",
+      "bullets": [
+        "Developed React and React Native front-end for AEP’s field operations platform, integrating 10+ microservice APIs and complex data-entry workflows used by thousands of utility technicians nationwide.",
+        "Improved application load time by 40% through React.memo, lazy loading, code splitting, and Redux state architecture refactoring, reducing field technician downtime.",
+        "Instrumented Dynatrace APM across the platform, configuring crash analytics, session replay, and performance dashboards that reduced mean time to resolution (MTTR) by 50% on P1 incidents."
+      ],
+      "tags": [
+        "React",
+        "React Native",
+        "Redux",
+        "Dynatrace"
+      ]
+    },
+    {
+      "date": "Aug 2024 – Feb 2025",
+      "role": "Software Engineer II",
+      "company": "Walmart (Contract) · Warehouse Management System",
+      "bullets": [
+        "Delivered iOS and Android features for Walmart’s warehouse management system serving 500K+ daily active store associates; drove architecture decisions across the React Native codebase.",
+        "Designed Jest and React Testing Library unit testing infrastructure, increasing code coverage to 80%+ and reducing production regression incidents by 35%.",
+        "Optimized app load time by 40% via JavaScript bundle optimization, image caching, FlatList virtualization, and network request batching.",
+        "Implemented Dynatrace instrumentation across 3 mobile apps — crash analytics, session replay, and performance baselines — cutting MTTR by 50% on critical incidents."
+      ],
+      "tags": [
+        "React Native",
+        "Jest",
+        "React Testing Library",
+        "Dynatrace"
+      ]
+    },
+    {
+      "date": "Feb 2024 – Jun 2024",
+      "role": "React Native Engineer",
+      "company": "Infosys / HCSC (Contract) · HCSC Mobile 2.0",
+      "bullets": [
+        "Led React Native development of HCSC Mobile 2.0, a healthcare management app serving 1M+ Illinois members; drove architecture, sprint planning, and feature delivery across hybrid distributed teams.",
+        "Mentored 4 engineers in React Native, Redux Saga, and mobile best practices; introduced structured PR review and pair-programming workflows that improved team velocity by 25%.",
+        "Established Jest-based unit testing standards, improving code coverage from 45% to 85% and enabling confident continuous deployment to 1M+ users."
+      ],
+      "tags": [
+        "React Native",
+        "Redux Saga",
+        "Jest",
+        "Mentoring"
+      ]
+    },
+    {
+      "date": "Nov 2022 – Jan 2024",
+      "role": "Software Engineer",
+      "company": "Walmart (Contract) · Receiving 1.0 & 2.0",
+      "bullets": [
+        "Built React Native inventory management applications (Receiving 1.0 & 2.0) used by 1,000+ associates daily across hundreds of store locations.",
+        "Designed a modular React Native component system shared across 3 warehouse apps, cutting duplicate code by 40% and accelerating cross-team feature delivery.",
+        "Implemented a real-time data sync layer between React Native clients and Walmart’s SAP enterprise backend, enabling live inventory updates with sub-second latency.",
+        "Leveraged Dynatrace session replay and crash analytics to sustain 99.9% crash-free sessions across iOS and Android."
+      ],
+      "tags": [
+        "React Native",
+        "SAP",
+        "Real-time sync",
+        "Dynatrace"
+      ]
+    },
+    {
+      "date": "Nov 2021 – Oct 2022",
+      "role": "Full Stack Engineer",
+      "company": "Walmart (Contract) · Store Assist / Fulfillment as a Service",
+      "bullets": [
+        "Delivered curbside pickup, order management, and associate workflow features for Store Assist, Walmart’s FaaS mobile platform, leading a team of 5 engineers.",
+        "Implemented Electrode Native micro-frontend architecture enabling React Native modules to embed into existing native apps, reducing new-feature integration time by 60%.",
+        "Contributed reusable component libraries and performance-optimized React Native modules to Spark Driver (gig delivery) and Dispense (global fulfillment) platforms."
+      ],
+      "tags": [
+        "React Native",
+        "Electrode Native",
+        "Team leadership"
+      ]
+    },
+    {
+      "date": "Oct 2018 – Nov 2021",
+      "role": "Lead Engineer & Co-Founder",
+      "company": "Eurybia Studio",
+      "bullets": [
+        "Co-founded Eurybia Studio; delivered 0-to-1 React Native and React web applications across restaurant tech, on-demand delivery, and e-commerce verticals.",
+        "Built and launched a contactless QR digital menu platform deployed at 50+ restaurants during COVID-19, achieving sub-500ms QR decode time with a Firebase real-time backend.",
+        "Developed an end-to-end React Native gas delivery tracking app with Firebase real-time updates and Node.js/Express backend, scaling to 300+ daily deliveries with live driver location and ETA."
+      ],
+      "tags": [
+        "React Native",
+        "React",
+        "Firebase",
+        "Node.js / Express"
+      ]
+    },
+    {
+      "date": "Jun 2017 – Oct 2018",
+      "role": "Software Engineer",
+      "company": "Roambee (IoT Startup)",
+      "bullets": [
+        "Built Mobile as Bee iOS/Android application using React Native and Firebase with a Node.js RESTful backend, delivering real-time IoT asset tracking for enterprise logistics clients.",
+        "Spearheaded an iOS codebase refactoring initiative that improved app stability and reduced crash rates by 60%."
+      ],
+      "tags": [
+        "React Native",
+        "Firebase",
+        "Node.js",
+        "IoT"
+      ]
+    },
+    {
+      "date": "Aug 2015 – Jun 2017",
+      "role": "Front-End Developer",
+      "company": "Lonewolf (Web & Game Startup)",
+      "bullets": [
+        "Built responsive single-page applications in React.js with Flux architecture; developed React Native admin screens and reusable component libraries."
+      ],
+      "tags": [
+        "React",
+        "React Native",
+        "Flux"
+      ]
+    }
+  ],
+  "links": {
+    "GitHub": "https://github.com/aaronrl25",
+    "LinkedIn": "https://www.linkedin.com/in/aaronsoftware",
+    "YouTube": "https://www.youtube.com/channel/UC68JgSvpWKYOZfdzEkQyIaw",
+    "Resume": "/Aaron_Ramirez_Resume.docx",
+    "+1 (773) 708-2882": "tel:+17737082882",
+    "aron.software": "https://aron.software"
+  },
+  "name": "Aaron David Ramírez Lezama",
+  "headline": "Staff / Lead / Senior Front-end & Mobile Engineer",
+  "email": "rl.aaron4@gmail.com",
+  "summary": "Front-end and mobile engineer with 10+ years delivering enterprise-scale cross-platform mobile applications across Fortune 500 clients including Walmart, IBM/AEP, and HCSC. Deep expertise in React Native (Expo, EAS, bare workflow), TypeScript, Redux, and Firebase — with a track record of driving measurable performance gains, establishing mobile engineering standards, and mentoring distributed teams. Experienced in AI-assisted development workflows (Claude, Cursor) that accelerate delivery without sacrificing code quality. Seeking Senior, Lead, or Staff-level React Native and Frontend roles.",
+  "skills": [
+    [
+      "Languages",
+      "TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS"
+    ],
+    [
+      "Frontend",
+      "React.js, Redux, Redux Saga, Zustand, Flux, Webpack, Tailwind CSS"
+    ],
+    [
+      "Mobile",
+      "React Native (Expo SDK, bare workflow, EAS Build/Update), iOS, Android, Electrode Native, native module bridging"
+    ],
+    [
+      "Backend",
+      "Node.js, Express, Firebase (Auth, Firestore, Cloud Functions, FCM), REST APIs, GraphQL, WebSockets"
+    ],
+    [
+      "Databases",
+      "PostgreSQL, MongoDB, Firebase Firestore"
+    ],
+    [
+      "Testing",
+      "Jest, Detox, React Testing Library — unit, integration & E2E; 80%+ coverage standards"
+    ],
+    [
+      "Observability",
+      "Dynatrace (APM, crash analytics, session replay, MTTR dashboards), CI/CD pipelines"
+    ],
+    [
+      "Cloud & DevOps",
+      "Firebase, Azure DevOps, EAS Build, Git"
+    ],
+    [
+      "Tools & AI",
+      "Xcode, Android Studio, Figma, VSCode, Claude AI, Cursor, Tabnine, NPM, Yarn"
+    ]
+  ],
+  "education": [
+    [
+      "B.S. Computer Systems Engineering",
+      "Universidad España y México"
+    ],
+    [
+      "Studies in Animation, Interactive Technology & VFX",
+      "IBERO Puebla"
+    ]
+  ],
+  "community": [
+    [
+      "Code & Coffee Chicago & SF",
+      "Co-organizer; helped grow Chicago events to 200+ monthly attendees and contributed to a nationwide community spanning 40+ cities and 75,000+ members."
+    ],
+    [
+      "ChicagoJS speaker",
+      "“From Idea to App: Rapid MVP Development in React Native.”"
+    ],
+    [
+      "Jalisco Talent Land 2024 speaker",
+      "Presented on nearshoring, staffing, and the future of LATAM engineering talent."
+    ],
+    [
+      "Podcast host",
+      "Interviews with founders, CTOs, engineering leaders, and software developers on YouTube."
+    ],
+    [
+      "5× hackathon winner",
+      "Cyber Jam 2024 Mentor; recognized for mobile architecture and rapid prototyping."
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+.aaron-loader {
+  display: inline-grid;
+  place-items: center;
+}
+
+.aaron-loader__viewport {
+  display: block;
+  width: min(var(--loader-size, 240px), 80vw);
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.aaron-loader__strip {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 100%;
+  animation: aaron-run-cycle 0.82s steps(10, end) infinite;
+  will-change: transform;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes aaron-run-cycle {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aaron-loader__strip {
+    animation-play-state: paused;
+  }
+}

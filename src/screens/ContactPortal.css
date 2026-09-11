@@ -1,0 +1,28 @@
+.portal { position: relative; overflow: hidden; }
+.portal .particles { display: none; }
+.portal-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; position: relative; z-index: 1; }
+.portal-copy h1 { font-size: clamp(48px, 7vw, 92px); margin: 6px 0 14px; }
+.portal-lead { color: var(--ink-2); font-size: 17px; max-width: 58ch; }
+.channels { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 24px 0; }
+.channels li { display: grid; grid-template-columns: 1fr auto; align-items: stretch; border: 3px solid var(--ink); border-radius: 6px; background: var(--white); box-shadow: 3px 3px 0 var(--ink); transition: transform 0.15s var(--ease-out), box-shadow 0.15s; }
+.channels li:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+.channels a { display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: center; padding: 12px 14px; color: var(--ink); text-decoration: none; }
+.channels svg { color: var(--red); }
+.channels strong { display: block; font-family: var(--font-display); font-size: 18px; letter-spacing: 0.04em; }
+.channels small { display: block; color: var(--ink-2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.channels .copy { padding: 0 12px; border-left: 3px solid var(--ink); color: var(--ink); }
+.channels .copy:hover { background: var(--yellow); }
+.portal-form { display: grid; gap: 12px; padding: 20px; background: var(--white); }
+.portal-form label { display: grid; gap: 6px; font-family: var(--font-hand); font-size: 14px; color: var(--ink); }
+.portal-form input, .portal-form textarea { font: inherit; font-family: var(--font-body); color: var(--ink); background: var(--paper); border: 3px solid var(--ink); border-radius: 4px; padding: 10px 12px; resize: vertical; }
+.portal-form input:focus, .portal-form textarea:focus { outline: none; background: var(--white); box-shadow: 3px 3px 0 var(--ink); }
+.portal-note { font-size: 12px; color: var(--ink-2); }
+.portal-stage { position: relative; display: grid; place-items: end center; min-height: 460px; }
+.portal-bubble { position: absolute; top: 0; left: 0; max-width: 280px; z-index: 3; }
+.portal-ring { position: absolute; left: 50%; bottom: 40px; width: 380px; height: 120px; transform: translateX(-50%); pointer-events: none; }
+.portal-ring span { position: absolute; left: 50%; top: 50%; border-radius: 50%; transform: translate(-50%, -50%) rotateX(74deg); border: 3px solid var(--ink); }
+.portal-ring span:nth-child(1) { width: 280px; height: 280px; background-image: radial-gradient(var(--red) 1.3px, transparent 1.6px); background-size: 9px 9px; opacity: 0.5; border-style: dashed; animation: spin 18s linear infinite; }
+.portal-ring span:nth-child(2) { width: 360px; height: 360px; animation: spin 30s linear infinite reverse; border-color: var(--red); }
+.portal-ring span:nth-child(3) { width: 200px; height: 200px; animation: spin 12s linear infinite; }
+@keyframes spin { to { transform: translate(-50%, -50%) rotateX(74deg) rotate(360deg); } }
+@media (max-width: 960px) { .portal-grid { grid-template-columns: 1fr; } .portal-stage { order: -1; min-height: 360px; } .portal-stage .aaron { width: 280px !important; height: 280px !important; } .portal-stage .aaron-pose { height: 280px !important; } .portal-ring { transform: translateX(-50%) scale(0.7); } .channels { grid-template-columns: 1fr; } .portal-bubble { max-width: 220px; font-size: 14px; padding: 12px 14px; } }

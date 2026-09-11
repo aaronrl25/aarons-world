@@ -1,0 +1,28 @@
+.hall { position: relative; }
+.hall .particles { display: none; }
+.hall-head { display: grid; grid-template-columns: 1fr auto; align-items: end; max-width: none; }
+.trophies { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 22px 18px; position: relative; z-index: 1; }
+.trophies > li:nth-child(3n+1) .trophy { transform: rotate(-1.5deg); } .trophies > li:nth-child(3n+2) .trophy { transform: rotate(1deg); } .trophies > li:nth-child(3n) .trophy { transform: rotate(-0.5deg); }
+.trophy { position: relative; width: 100%; display: grid; justify-items: center; gap: 8px; padding: 24px 14px 16px; border: 3px solid var(--ink); border-radius: 6px; background: var(--white); text-align: center; overflow: hidden; transition: transform 0.25s var(--ease-out), box-shadow 0.25s; --accent: var(--ink); box-shadow: var(--shadow-sm); }
+.trophy.legendary { --accent: var(--red); background: #fff3f1; }
+.trophy.epic { --accent: var(--cyan); }
+.trophy.rare { --accent: var(--green); }
+.trophy:hover { transform: rotate(0) translate(-2px, -2px); box-shadow: 7px 7px 0 var(--ink); }
+.trophy-glow { display: none; }
+.trophy-icon { width: 64px; height: 64px; color: var(--accent); animation: float 4s ease-in-out infinite; }
+.trophy-icon.large { width: 84px; height: 84px; margin-bottom: 8px; }
+.trophy-plinth { width: 80px; height: 8px; border-radius: 50%; background: var(--ink); opacity: 0.15; margin-top: -4px; }
+.trophy-title { font-family: var(--font-display); font-size: 19px; line-height: 1.1; letter-spacing: 0.04em; color: var(--ink); }
+.trophy-rarity { color: var(--white); background: var(--accent); font-family: var(--font-hand); text-transform: none; letter-spacing: 0; font-size: 12px; padding: 1px 8px; border: 2px solid var(--ink); }
+.trophy-modal-backdrop { position: fixed; inset: 0; z-index: 60; background: rgba(22,22,26,0.55); display: grid; place-items: center; padding: 20px; }
+.trophy-modal { position: relative; width: min(560px, 100%); padding: 32px 28px 26px; display: grid; justify-items: center; text-align: center; gap: 6px; --accent: var(--ink); max-height: 90vh; overflow-y: auto; background: var(--white); }
+.trophy-modal.legendary { --accent: var(--red); }
+.trophy-modal.epic { --accent: var(--cyan); }
+.trophy-modal.rare { --accent: var(--green); }
+.trophy-modal h2 { font-size: 36px; color: var(--ink); text-shadow: 3px 3px 0 var(--accent); }
+.trophy-detail { color: var(--ink-2); max-width: 46ch; }
+.trophy-memory { margin-top: 14px; border: 3px solid var(--ink); overflow: hidden; width: 100%; background: var(--white); box-shadow: 4px 4px 0 var(--ink); transform: rotate(-1deg); }
+.trophy-memory img { width: 100%; height: 220px; object-fit: cover; border-bottom: 3px solid var(--ink); }
+.trophy-memory figcaption { padding: 10px 14px; font-size: 13px; color: var(--ink-2); text-align: left; font-family: var(--font-hand); }
+.trophy-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; justify-content: center; }
+@media (max-width: 860px) { .hall-head { grid-template-columns: 1fr; } .hall-actor { display: none; } .trophies { grid-template-columns: repeat(2, 1fr); } }

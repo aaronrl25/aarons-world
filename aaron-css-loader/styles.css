@@ -1,0 +1,137 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background: #070b14;
+  color: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.demo-shell {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 50% 35%, rgb(20 99 255 / 22%), transparent 32%),
+    linear-gradient(145deg, #050711 0%, #0b1220 55%, #070b14 100%);
+}
+
+.demo-card {
+  width: min(680px, 100%);
+  padding: clamp(28px, 7vw, 64px);
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid rgb(148 163 184 / 18%);
+  border-radius: 32px;
+  background: rgb(15 23 42 / 68%);
+  box-shadow: 0 32px 100px rgb(0 0 0 / 45%);
+  backdrop-filter: blur(20px);
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #60a5fa;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.55rem, 4vw, 2.7rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.loader-stage {
+  position: relative;
+  display: grid;
+  width: min(280px, 70vw);
+  margin: 30px auto 18px;
+  place-items: end center;
+}
+
+.runner-viewport {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.runner-strip {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 100%;
+  animation: run-cycle 0.82s steps(10, end) infinite;
+  will-change: transform;
+}
+
+.runner-shadow {
+  position: absolute;
+  bottom: 5%;
+  width: 48%;
+  height: 7%;
+  border-radius: 999px;
+  background: rgb(37 99 235 / 28%);
+  filter: blur(12px);
+  animation: shadow-pulse 0.41s ease-in-out infinite alternate;
+}
+
+.progress-track {
+  position: relative;
+  width: min(280px, 72%);
+  height: 4px;
+  margin: 4px auto 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(148 163 184 / 16%);
+}
+
+.progress-glow {
+  position: absolute;
+  inset: 0 auto 0 -40%;
+  width: 38%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, #38bdf8, #2563eb, transparent);
+  animation: progress-sweep 1.35s ease-in-out infinite;
+}
+
+@keyframes run-cycle {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes shadow-pulse {
+  to {
+    opacity: 0.55;
+    transform: scaleX(0.82);
+  }
+}
+
+@keyframes progress-sweep {
+  to {
+    left: 102%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .runner-strip,
+  .runner-shadow,
+  .progress-glow {
+    animation-play-state: paused;
+  }
+}

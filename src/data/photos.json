@@ -1,0 +1,236 @@
+[
+  {
+    "id": "moment-01",
+    "src": "/photos/moment-01-1440.webp",
+    "thumbnail": "/photos/moment-01-640.webp",
+    "alt": "Sharing ideas with the developer community",
+    "category": "Community",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-02",
+    "src": "/photos/moment-02-1440.webp",
+    "thumbnail": "/photos/moment-02-640.webp",
+    "alt": "An evening by the Golden Gate Bridge",
+    "category": "Off duty",
+    "width": 1848,
+    "height": 4000
+  },
+  {
+    "id": "moment-03",
+    "src": "/photos/moment-03-1440.webp",
+    "thumbnail": "/photos/moment-03-640.webp",
+    "alt": "A sunny day at the Golden Gate Bridge",
+    "category": "Off duty",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-04",
+    "src": "/photos/moment-04-1440.webp",
+    "thumbnail": "/photos/moment-04-640.webp",
+    "alt": "Exploring a technology exhibition",
+    "category": "Events",
+    "width": 2940,
+    "height": 1358
+  },
+  {
+    "id": "moment-05",
+    "src": "/photos/moment-05-1440.webp",
+    "thumbnail": "/photos/moment-05-640.webp",
+    "alt": "Meeting fellow attendees at a Capital One reception",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-06",
+    "src": "/photos/moment-06-1440.webp",
+    "thumbnail": "/photos/moment-06-640.webp",
+    "alt": "Outside NVIDIA GTC 2026",
+    "category": "Events",
+    "width": 2848,
+    "height": 1602
+  },
+  {
+    "id": "moment-07",
+    "src": "/photos/moment-07-1440.webp",
+    "thumbnail": "/photos/moment-07-640.webp",
+    "alt": "Building and exchanging ideas at a developer gathering",
+    "category": "Community",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-08",
+    "src": "/photos/moment-08-1440.webp",
+    "thumbnail": "/photos/moment-08-640.webp",
+    "alt": "A visit to a GitHub event",
+    "category": "Community",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-09",
+    "src": "/photos/moment-09-1440.webp",
+    "thumbnail": "/photos/moment-09-640.webp",
+    "alt": "Conversations at a technology event",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-10",
+    "src": "/photos/moment-10-1440.webp",
+    "thumbnail": "/photos/moment-10-640.webp",
+    "alt": "A group photo at Auth0 Camp AI",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-11",
+    "src": "/photos/moment-11-1440.webp",
+    "thumbnail": "/photos/moment-11-640.webp",
+    "alt": "Connecting with the community at Auth0 Camp AI",
+    "category": "Events",
+    "width": 2940,
+    "height": 1358
+  },
+  {
+    "id": "moment-12",
+    "src": "/photos/moment-12-1440.webp",
+    "thumbnail": "/photos/moment-12-640.webp",
+    "alt": "Sunset on San Francisco Bay",
+    "category": "Off duty",
+    "width": 2940,
+    "height": 1358
+  },
+  {
+    "id": "moment-13",
+    "src": "/photos/moment-13-1440.webp",
+    "thumbnail": "/photos/moment-13-640.webp",
+    "alt": "At an innovation conference",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-14",
+    "src": "/photos/moment-14-1440.webp",
+    "thumbnail": "/photos/moment-14-640.webp",
+    "alt": "A quick selfie with fellow attendees",
+    "category": "Community",
+    "width": 1848,
+    "height": 4000
+  },
+  {
+    "id": "moment-15",
+    "src": "/photos/moment-15-1440.webp",
+    "thumbnail": "/photos/moment-15-640.webp",
+    "alt": "Exploring the conference floor",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-16",
+    "src": "/photos/moment-16-1440.webp",
+    "thumbnail": "/photos/moment-16-640.webp",
+    "alt": "At a Snowflake event",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-17",
+    "src": "/photos/moment-17-1440.webp",
+    "thumbnail": "/photos/moment-17-640.webp",
+    "alt": "An evening at Oracle Park",
+    "category": "Off duty",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-18",
+    "src": "/photos/moment-18-1440.webp",
+    "thumbnail": "/photos/moment-18-640.webp",
+    "alt": "Connecting at an AWS event",
+    "category": "Events",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-19",
+    "src": "/photos/moment-19-1440.webp",
+    "thumbnail": "/photos/moment-19-640.webp",
+    "alt": "A community gathering in the city",
+    "category": "Community",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-20",
+    "src": "/photos/moment-20-1440.webp",
+    "thumbnail": "/photos/moment-20-640.webp",
+    "alt": "A group photo outside the Amazon Spheres",
+    "category": "Community",
+    "width": 4000,
+    "height": 1848
+  },
+  {
+    "id": "moment-21",
+    "src": "/photos/moment-21-1440.webp",
+    "thumbnail": "/photos/moment-21-640.webp",
+    "alt": "A visit to Y Combinator",
+    "category": "Events",
+    "width": 1848,
+    "height": 4000
+  },
+  {
+    "id": "moment-22",
+    "src": "/photos/moment-22-1440.webp",
+    "thumbnail": "/photos/moment-22-640.webp",
+    "alt": "Outside Y Combinator",
+    "category": "Events",
+    "width": 1848,
+    "height": 4000
+  },
+  {
+    "id": "moment-23",
+    "src": "/photos/moment-23-1440.webp",
+    "thumbnail": "/photos/moment-23-640.webp",
+    "alt": "Enjoying a game at the stadium",
+    "category": "Off duty",
+    "width": 160,
+    "height": 214
+  },
+  {
+    "id": "moment-24",
+    "src": "/photos/moment-24-1440.webp",
+    "thumbnail": "/photos/moment-24-640.webp",
+    "alt": "A portrait away from the keyboard",
+    "category": "Off duty",
+    "width": 773,
+    "height": 1364
+  },
+  {
+    "id": "talent-land",
+    "src": "/photos/talent-land-1440.webp",
+    "thumbnail": "/photos/talent-land-640.webp",
+    "alt": "Speaking at Developer Land, Jalisco Talent Land",
+    "category": "Events",
+    "width": 1920,
+    "height": 1011
+  },
+  {
+    "id": "talent-land-speaking",
+    "src": "/photos/talent-land-speaking-1440.webp",
+    "thumbnail": "/photos/talent-land-speaking-640.webp",
+    "alt": "Presenting at Jalisco Talent Land 2024",
+    "category": "Events",
+    "width": 2048,
+    "height": 945
+  }
+]

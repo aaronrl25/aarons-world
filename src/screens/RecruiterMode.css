@@ -1,0 +1,50 @@
+.recruiter { padding-top: calc(var(--hud-h) + 30px); }
+.rec-hero { display: grid; grid-template-columns: 220px 1fr; gap: 30px; align-items: start; margin-bottom: 30px; }
+.rec-photo { width: 220px; height: 275px; object-fit: cover; object-position: top; border: 3px solid var(--ink); box-shadow: var(--shadow); transform: rotate(-2deg); background: var(--white); padding: 6px; }
+.rec-hero h1 { font-size: clamp(40px, 5.5vw, 68px); margin: 6px 0 10px; }
+.rec-headline { font-size: 17px; color: var(--ink-2); margin-bottom: 12px; }
+.rec-headline strong { color: var(--ink); background: var(--yellow); padding: 0 4px; }
+.rec-summary { color: var(--ink-2); max-width: 80ch; }
+.rec-contacts { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 16px 0; }
+.rec-contacts a { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); font-size: 14px; }
+.rec-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.rec-stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 40px; }
+.rec-columns { display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; align-items: start; }
+.rec-section { margin-bottom: 36px; }
+.rec-section h2 { font-size: 34px; padding-bottom: 8px; border-bottom: 3px solid var(--ink); margin-bottom: 18px; }
+.rec-timeline { list-style: none; display: grid; gap: 22px; }
+.rec-timeline > li { position: relative; padding-left: 22px; border-left: 3px solid var(--ink); }
+.rec-timeline > li::before { content: ''; position: absolute; left: -9px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--red); border: 3px solid var(--ink); box-sizing: border-box; }
+.rec-date { color: var(--red); font-size: 12px; font-weight: 700; }
+.rec-timeline h3 { font-size: 24px; margin: 4px 0 2px; }
+.rec-company { color: var(--ink-2); font-size: 14px; margin-bottom: 8px; }
+.rec-timeline ul { padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); font-size: 15px; margin-bottom: 10px; }
+.rec-projects { list-style: none; display: grid; gap: 18px; }
+.rec-projects h3 { font-size: 24px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.rec-project-kind { font-family: var(--font-hand); font-size: 13px; color: var(--red); }
+.rec-projects p { color: var(--ink-2); font-size: 15px; margin-top: 4px; }
+.rec-project-stack { font-size: 12px; color: var(--ink); }
+.rec-project-links { display: flex; gap: 14px; flex-wrap: wrap; }
+.rec-project-links a { display: inline-flex; align-items: center; gap: 4px; font-size: 14px; }
+.rec-skill-group { margin-bottom: 12px; }
+.rec-skill-group h3 { font-size: 18px; color: var(--ink); margin-bottom: 2px; }
+.rec-skill-group p { font-size: 14px; color: var(--ink-2); }
+.rec-list { list-style: none; display: grid; gap: 8px; font-size: 14px; color: var(--ink-2); }
+.rec-list strong { color: var(--ink); }
+.rec-apps { list-style: none; display: grid; gap: 8px; }
+.rec-apps a { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; color: var(--ink); font-size: 14px; padding: 6px; border: 2px solid var(--ink); border-radius: 6px; background: var(--white); text-decoration: none; }
+.rec-apps a:hover { background: var(--yellow); }
+.rec-apps img { border-radius: 8px; border: 2px solid var(--ink); }
+.rec-apps small { display: block; color: var(--ink-2); font-size: 12px; }
+.rec-web-list { font-size: 14px; color: var(--ink-2); line-height: 1.8; }
+@media (max-width: 960px) { .rec-columns { grid-template-columns: 1fr; } .rec-stats { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .rec-hero { grid-template-columns: 1fr; } .rec-photo { width: 160px; height: 200px; } .rec-stats { grid-template-columns: repeat(2, 1fr); } }
+@media print {
+  .hud, .hud-mobile, .rec-actions, body::before { display: none !important; }
+  body { background: #fff; color: #111; }
+  .recruiter { padding: 0; }
+  .rec-columns { grid-template-columns: 1fr; }
+  .stat, .rec-photo, .rec-apps a { box-shadow: none; transform: none; }
+  h1 { text-shadow: none; }
+  a { color: #114; }
+}

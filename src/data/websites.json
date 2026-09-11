@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Temper",
+    "url": "https://ychackathon.vercel.app/",
+    "image": "/websites/ychackathon.vercel.app-1440.webp",
+    "thumbnail": "/websites/ychackathon.vercel.app-640.webp",
+    "temporary": true
+  },
+  {
+    "name": "Code & Coffee × WeAreDevelopers",
+    "url": "https://codeandcoffeewearedevelopers-psi.vercel.app/",
+    "image": "/websites/codeandcoffeewearedevelopers-psi.vercel.app-1440.webp",
+    "thumbnail": "/websites/codeandcoffeewearedevelopers-psi.vercel.app-640.webp",
+    "temporary": true
+  },
+  {
+    "name": "Code & Coffee",
+    "url": "https://codeandcoffee.org/",
+    "image": "/websites/codeandcoffee.org-1440.webp",
+    "thumbnail": "/websites/codeandcoffee.org-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "STRGYZ",
+    "url": "https://strgyz.vercel.app/",
+    "image": "/websites/strgyz.vercel.app-1440.webp",
+    "thumbnail": "/websites/strgyz.vercel.app-640.webp",
+    "temporary": true
+  },
+  {
+    "name": "Trihlon",
+    "url": "https://trihlon.vercel.app/",
+    "image": "/websites/trihlon.vercel.app-1440.webp",
+    "thumbnail": "/websites/trihlon.vercel.app-640.webp",
+    "temporary": true
+  },
+  {
+    "name": "Lánima Tequila",
+    "url": "https://lanimatequila.com/",
+    "image": "/websites/lanimatequila.com-1440.webp",
+    "thumbnail": "/websites/lanimatequila.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Camafra",
+    "url": "https://camafra.com.mx/",
+    "image": "/websites/camafra.com.mx-1440.webp",
+    "thumbnail": "/websites/camafra.com.mx-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Grandma Mode",
+    "url": "https://aaronr257.sg-host.com/",
+    "image": "/websites/aaronr257.sg-host.com-1440.webp",
+    "thumbnail": "/websites/aaronr257.sg-host.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "LoopCFO",
+    "url": "https://aaronr254.sg-host.com/",
+    "image": "/websites/aaronr254.sg-host.com-1440.webp",
+    "thumbnail": "/websites/aaronr254.sg-host.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Goaty",
+    "url": "https://aaronr253.sg-host.com/",
+    "image": "/websites/aaronr253.sg-host.com-1440.webp",
+    "thumbnail": "/websites/aaronr253.sg-host.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Supah Fan",
+    "url": "https://supahfan.com/",
+    "image": "/websites/supahfan.com-1440.webp",
+    "thumbnail": "/websites/supahfan.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Baby Burger",
+    "url": "https://babyburger.com.mx/",
+    "image": "/websites/babyburger.com.mx-1440.webp",
+    "thumbnail": "/websites/babyburger.com.mx-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Zarandero",
+    "url": "https://zarandero.com/",
+    "image": "/websites/zarandero.com-1440.webp",
+    "thumbnail": "/websites/zarandero.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Oftálmica Clínica",
+    "url": "https://oftalmicaclinica.com/",
+    "image": "/websites/oftalmicaclinica.com-1440.webp",
+    "thumbnail": "/websites/oftalmicaclinica.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Roy Abascal",
+    "url": "https://royabascal.com/",
+    "image": "/websites/royabascal.com-1440.webp",
+    "thumbnail": "/websites/royabascal.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Rafa Sarmiento",
+    "url": "https://rafasarmiento.mx/",
+    "image": "/websites/rafasarmiento.mx-1440.webp",
+    "thumbnail": "/websites/rafasarmiento.mx-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Vehitfer",
+    "url": "https://vehitfer.com.mx/",
+    "image": "/websites/vehitfer.com.mx-1440.webp",
+    "thumbnail": "/websites/vehitfer.com.mx-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Nearminds",
+    "url": "https://nearminds.ai/",
+    "image": "/websites/nearminds.ai-1440.webp",
+    "thumbnail": "/websites/nearminds.ai-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Bhuvi Business",
+    "url": "https://bhuvibiz.com/",
+    "image": "/websites/bhuvibiz.com-1440.webp",
+    "thumbnail": "/websites/bhuvibiz.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "American Premier Events",
+    "url": "https://apevent.us/",
+    "image": "/websites/apevent.us-1440.webp",
+    "thumbnail": "/websites/apevent.us-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "American Premier Cricket League",
+    "url": "https://apclus.com/",
+    "image": "/websites/apclus.com-1440.webp",
+    "thumbnail": "/websites/apclus.com-640.webp",
+    "temporary": false
+  },
+  {
+    "name": "Aaron — Terminal Portfolio",
+    "url": "https://aron.software/",
+    "image": "/websites/aron.software-1440.webp",
+    "thumbnail": "/websites/aron.software-640.webp",
+    "temporary": false
+  }
+]

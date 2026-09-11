@@ -1,0 +1,36 @@
+.vault-head { display: grid; grid-template-columns: 1fr auto; align-items: end; max-width: none; }
+.vault-filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
+.vault-filters .chip { cursor: pointer; gap: 6px; font-size: 14px; min-height: 34px; }
+.vault-filters .count { color: var(--red); }
+.memory-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-rows: 210px; grid-auto-flow: dense; gap: 26px 20px; }
+.memory-grid li.tall { grid-row: span 2; }
+.memory-grid li:nth-child(4n+1) .memory-tile { transform: rotate(-2deg); } .memory-grid li:nth-child(4n+2) .memory-tile { transform: rotate(1.5deg); } .memory-grid li:nth-child(4n+3) .memory-tile { transform: rotate(-1deg); } .memory-grid li:nth-child(4n) .memory-tile { transform: rotate(2deg); }
+.memory-tile { position: relative; width: 100%; height: 100%; display: block; border: 3px solid var(--ink); background: var(--white); padding: 8px 8px 44px; box-shadow: var(--shadow-sm); transition: transform 0.25s var(--ease-out), box-shadow 0.25s; }
+.memory-tile::before { content: ''; position: absolute; top: -12px; left: 50%; width: 90px; height: 26px; background: rgba(255, 220, 110, 0.75); border: 1px solid rgba(0,0,0,0.12); transform: translateX(-50%) rotate(-3deg); z-index: 2; }
+.memory-tile:hover { transform: rotate(0) scale(1.03); box-shadow: 8px 8px 0 var(--ink); z-index: 2; }
+.memory-tile img { width: 100%; height: 100%; object-fit: cover; border: 2px solid var(--ink); }
+.memory-tile-info { position: absolute; left: 8px; right: 8px; bottom: 6px; display: grid; gap: 0; text-align: left; }
+.memory-tile-info .hud-text { display: none; }
+.memory-tile-info strong { font-family: var(--font-hand); font-size: 14px; color: var(--ink); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.memory-tile-info small { display: inline-flex; align-items: center; gap: 4px; color: var(--ink-2); font-size: 11px; }
+.memory-viewer { border: 0; padding: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; color: var(--ink); }
+.memory-viewer::backdrop { background: rgba(22,22,26,0.7); }
+.memory-viewer-inner { position: relative; width: 100%; height: 100%; display: grid; grid-template-columns: 56px 1fr 56px; align-items: center; padding: 20px; }
+.memory-viewer figure { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: center; max-height: calc(100vh - 40px); }
+.memory-viewer img { max-height: calc(100vh - 60px); width: 100%; object-fit: contain; border: 3px solid var(--ink); background: var(--white); padding: 8px; animation: fade-up 0.3s var(--ease-out) both; }
+.memory-viewer figcaption { display: grid; gap: 10px; background: var(--white); border: 3px solid var(--ink); padding: 18px; box-shadow: var(--shadow); }
+.memory-viewer h2 { font-size: 30px; }
+.memory-viewer figcaption p { color: var(--ink-2); }
+.viewer-count { color: var(--ink-2); font-size: 12px; }
+.viewer-close { position: absolute; top: 16px; right: 16px; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; border: 3px solid var(--ink); background: var(--white); color: var(--ink); z-index: 2; box-shadow: 3px 3px 0 var(--ink); }
+.viewer-nav { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; border: 3px solid var(--ink); background: var(--white); color: var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.viewer-nav:hover, .viewer-close:hover { background: var(--yellow); }
+@media (max-width: 860px) {
+  .vault-head { grid-template-columns: 1fr; } .vault-actor { display: none; }
+  .memory-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; gap: 20px 14px; }
+  .memory-viewer-inner { grid-template-columns: 1fr; padding: 12px; }
+  .memory-viewer figure { grid-template-columns: 1fr; max-height: none; overflow-y: auto; }
+  .memory-viewer img { max-height: 50vh; }
+  .viewer-nav { position: absolute; bottom: 16px; }
+  .viewer-nav.prev { left: 16px; } .viewer-nav.next { right: 16px; }
+}
